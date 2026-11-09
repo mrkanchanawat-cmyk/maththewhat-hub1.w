@@ -218,3 +218,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ArtMath: private media and generated projects stay in Drive/local storage
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.ttf
+*.otf
+*.zip
+*.ass
+*.srt
+**/inputs/
+**/outputs/
+**/work/
+.local/
+voice/
+Clone/
+.env*
+credentials*.json
+token*.json
+service-account*.json
